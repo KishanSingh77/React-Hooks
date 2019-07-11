@@ -4,13 +4,13 @@ useState and useEffect
   const [count, setCount] = useState(0);
   
   //declare state property speed and make setSpeed function to manipulate the variable, providing initial state of 0
-  const [speed, setSpeed] = useState(0);
+    const [speed, setSpeed] = useState(0);
   
   //some more example to use useState
   
     const [age, setAge] = useState(42);
-  const [fruit, setFruit] = useState('banana');
-  const [todos, setTodos] = useState([{ text: 'Learn Hooks' }]);
+    const [fruit, setFruit] = useState('banana');
+    const [todos, setTodos] = useState([{ text: 'Learn Hooks' }]);
 
 
 now call  useEffect function to render changes once the state is updated.
